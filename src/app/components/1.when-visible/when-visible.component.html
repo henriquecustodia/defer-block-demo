@@ -1,0 +1,11 @@
+<h1>when</h1>
+
+@defer (when isVisible) {
+    <app-deferred />
+} @placeholder {
+  <div>
+    ((((( silence )))))
+  </div>
+}
+
+<button (click)="isVisible = true">Load</button>
